@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>最終発表</title>
+    <link rel="stylesheet" href="最終発表.css">
+</head>
+<body>
+    <h1>パチンカス教育入門</h1>
+    <h2>私の独断と偏見でパチンコ沼にはまるような三機種をピックアップしました。</h2><br>
+
+    <a href="エヴァ15.html"><img src="エヴァ15.png" alt=""></a><br>
+    <a class="text" href="エヴァ15.html">Ｐ新世紀エヴァンゲリオン～未来への咆哮～</a><br><br><br>
+
+    <a href="シンフォギア2.html"><img src="シンフォギア2.png" alt=""></a><br>
+    <a class="text" href="シンフォギア2.html">ＰＦ戦姫絶唱シンフォギア２</a><br><br><br>
+
+    <a href="ガンダムUC.html"><img src="ガンダムUC.png" alt=""></a><br>
+    <a class="text" href="ガンダムUC.html">ＰＦ機動戦士ガンダムユニコーン</a>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const links = document.querySelectorAll(".text");
+
+            links.forEach(function (link) {
+                link.addEventListener("mouseover", function () {
+                    link.style.color = "red";
+                });
+
+                link.addEventListener("mouseout", function () {
+                    link.style.color = "white";
+                });
+            });
+        });
+    </script>
+</body>
+</html>
