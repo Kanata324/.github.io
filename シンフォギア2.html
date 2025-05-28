@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>シンフォギア２</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>ＰＦ戦姫絶唱シンフォギア２</h1> 
+    <h2>てがみ保留予告</h2>
+    <img src="tegami.jpg" alt="" class="left">
+    <p>来ると地味にうれしい演出。中身次第では大当たり濃厚。でもほとんど当たらない。<br><br>てがみの中身の例:継続、抜剣、絶唱、デュランダル、etc...</p><br><br><br><br>
+    <h2>抜剣MODE</h2> 
+    <img src="igunaito.jpg" alt="" class="right">
+    <p>なかなか発展することはないが数字が黒くなる演出がとても熱い。しかし未だそこから当たったことはない。</p><br><br><br><br><br><br><br><br><br><br><br>
+    <h2>70億の絶唱リーチ</h2> 
+    <img src="70oku.jpg" alt="" class="left">
+    <p>絶唱演出ののち発展することで見られる。一見大当たり濃厚に見えるが普通に外れる。</p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>  
+    <video id="myVideo" loop>
+        <source src="シンフォギア2.mp4" type="video/mp4">
+    </video><br><br><br>
+    <a href="最終発表(修正).html">トップページに戻る</a>
+
+        <script>
+        const video = document.getElementById("myVideo");
+
+        video.addEventListener("mouseover", function() {
+            video.play();
+        });
+
+        video.addEventListener("mouseout", function() {
+            video.pause();
+            video.currentTime = 0;
+        });
+    </script>
+</body>
+</html>
