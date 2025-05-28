@@ -1,0 +1,35 @@
+img.left{
+    width: 500px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    border: 10px solid lightgreen; 
+}
+img.right{
+    width: 500px;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+    border: 10px solid lightgreen; 
+}
+p{
+    font-size: 25px;
+}
+h1{
+    text-align: center;
+    font-size: 45px;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    color: red;
+}
+video{
+    width: 640px;
+    height: 360px;
+    margin-left: 340px;
+}
+a{
+    margin-left: 580px;
+    font-size: 20px;
+}
