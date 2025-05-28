@@ -17,8 +17,12 @@
     <a class="text" href="シンフォギア2.html">ＰＦ戦姫絶唱シンフォギア２</a><br><br><br>
 
     <a href="ガンダムUC.html"><img src="ガンダムUC.png" alt=""></a><br>
-    <a class="text" href="ガンダムUC.html">ＰＦ機動戦士ガンダムユニコーン</a>
-
+    <a class="text" href="ガンダムUC.html">ＰＦ機動戦士ガンダムユニコーン</a><br><br>
+    
+    <h3>打ちたい台あったら教えてね</h3>
+    <input type="text" id="textInput" placeholder="文字を入力..." />
+    <button onclick="submitInput()">送信</button>
+    
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const links = document.querySelectorAll(".text");
@@ -33,6 +37,10 @@
                 });
             });
         });
+
+     function submitInput() {
+    const inputText = document.getElementById('textInput').value;
+    }
     </script>
 </body>
 </html>
